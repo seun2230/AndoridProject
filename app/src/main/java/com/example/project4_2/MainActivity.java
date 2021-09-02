@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         bt.setBluetoothConnectionListener(new BluetoothSPP.BluetoothConnectionListener() {
             @Override
             public void onDeviceConnected(String name, String address) {
